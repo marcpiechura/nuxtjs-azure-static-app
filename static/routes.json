@@ -1,5 +1,10 @@
 {
- "routes": [],
+ "routes": [
+   {
+  "route": "/login",
+  "serve": "/.auth/login/aad"
+}
+ ],
  "platformErrorOverrides": [
    {
     "errorType": "NotFound",
