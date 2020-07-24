@@ -40,6 +40,7 @@
         <a href="https://nuxtjs.org/faq/deployment-azure-static-web-apps" target="_blank" class="button--green">
           Documentation
         </a>
+    <p>Loading content from the API: <b id="name">...</b></p>
           </div>
         
       </div>
@@ -48,7 +49,10 @@
 </template>
 
 <script>
-export default {}
+    (async function() {
+      let { text } = await( await fetch(`/api/message`)).json();
+      document.querySelector('#name').textContent = text;
+    }())
 </script>
 
 <style scoped>
