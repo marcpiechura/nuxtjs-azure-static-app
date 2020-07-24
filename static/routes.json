@@ -19,6 +19,10 @@
     {
       "route": "/profile",
       "allowedRoles": ["authenticated"]
+    },
+    {
+      "route": "/api/*",
+      "allowedRoles": ["authenticated"]
     }
  ],
  "platformErrorOverrides": [
