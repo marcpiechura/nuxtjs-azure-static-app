@@ -19,7 +19,7 @@
           <div>
             <ul>
             <li>
-              <NuxtLink to="/login" >About page</NuxtLink>
+              <a href="/.auth/login/aad">Login</a>
             </li>
             <li>
               <NuxtLink to="/spa-fallback" >Spa Fallback page</NuxtLink>
