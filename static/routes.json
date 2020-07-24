@@ -26,6 +26,11 @@
     "errorType": "NotFound",
     "serve": "/200.html",
     "statusCode": 200
-   }
+   },
+    {
+      "errorType": "Unauthenticated",
+      "statusCode": "302",
+      "serve": "/.auth/login/aad"
+    }
  ]
 }
