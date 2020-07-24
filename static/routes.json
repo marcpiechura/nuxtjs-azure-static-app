@@ -22,7 +22,7 @@
     },
     {
       "route": "/api/*",
-      "allowedRoles": ["authenticated"]
+      "allowedRoles": ["admin"]
     }
  ],
  "platformErrorOverrides": [
